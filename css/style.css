@@ -1,104 +1,104 @@
-/* Style the body of the page */
-body{
-    font-family: Arial, Verdana;
-    background-color: #000000;
-    color: #FFFFFF;
-    margin: 20px,20px,0;
+/* 3. Style the body of the page */
+body {
+  font-family: Arial, Verdana;
+  background-color: #000000;
+  color: #FFFFFF;
+  margin: 20px 20px 0;
 }
 
-/* Style the h1 */
-h1{
-    font-size: 42px;
-    text-align: center;
-    padding: 15px;
+/* 4. Style the h1 heading */
+h1 {
+  font-size: 42px;
+  text-align: center;
+  padding: 15px;
 }
 
-/* Style the h2 */
-h2{
-    font-size: 30px;
-    color: #0D0D0D;
+/* 5. Style the h2 heading */
+h2 {
+  font-size: 30px;
+  color: #0D0D0D;
 }
 
-/* Style the default paragraphs */
-p{
-    font-size: 24px;
-    padding: 10px,0px,0px,10px;
+/* 6. Style the default paragraphs */
+p {
+  font-size: 24px;
+  padding: 10px 0px 0px 10px;
 }
 
-/* Style the default style for images */
-img{
-    width: 250px;
-    display: block;
-    margin: auto;
-    border: 10px dashed #FFFFFF;
+/* 7. Style the default style for images */
+img {
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+  border: 10px dashed #FFFFFF;
 }
 
-/* Style the default div elements */
-div{
-    min-height: 125px;
-    padding: 20px;
-    border: 3px solid #FFFFFF;
+/* 8. Style the default div elements */
+div {
+  min-height: 125px;
+  padding: 20px;
+  border: 3px solid #FFFFFF;
 }
 
-/* style introduction class */
-.introduction{
-    border-radius: 15px;
-    margin-top: 15px;
-    line-height: 2;
+/* 9. Style the introduction class */
+.introduction {
+  border-radius: 15px;
+  margin-top: 15px;
+  line-height: 2;
 }
 
-/* style the red class */
-.red{
-    background-color: #FF0000;
-    text-align: right;
-    margin-left: 50px;
-    border-style: solid;
-    border-width: 0 0 2px 5px;
+/* 10. Style the red class */
+.red {
+  background-color: #FF0000;
+  text-align: right;
+  margin-left: 50px;
+  border-style: solid;
+  border-width:0px 0px 2px 5px;
 }
 
-/* style the blue class */
-.blue{
-    background-color: #0000FF;
-    text-align: left;
-    margin-right: 50px;
-    border-style: solid;
-    border-width: 2px 5px 0 0;
-    color: #C4C4C4;
+/* 11. Style the blue div */
+.blue {
+  background-color: #0000FF;
+  text-align: left;
+  margin-right: 50px;
+  border-style: solid;
+  border-width:2px 5px 0px 0px;
+  color: #C4C4C4; /* Fix color contrast */
 }
 
+/* 11a. Style h1 and h2 within the blue div */
 .blue h2 {
-    color: #C4C4C4;
+  color: #C4C4C4;
 }
 
-/* style the yellow class */
-.yellow{
-    background-color: #FFFF00;
-    text-align: right;
-    margin-left: 50px;
-    border-style: solid;
-    border-width: 0 0 2px 5px;
-    color: #707070;
+/* 12. Style the yellow div */
+.yellow {
+  background-color: #FFFF00;
+  text-align: right;
+  margin-left: 50px;
+  border-style: solid;
+  border-width:0px 0px 2px 5px;
+  color: #707070; /* Fix color contrast */
 }
 
-/* style the green class */
-.green{
-    background-color: #008500;
-    text-align: left;
-    margin-right: 50px;
-    border-style: solid;
-    border-width: 2px 5px 0 0;
+/* 13. Style the green div */
+.green {
+  background-color: #008500;
+  text-align: left;
+  margin-right: 50px;
+  border-style: solid;
+  border-width:2px 5px 0px 0px;
 }
 
-/* Style the default footer elements */
+/* 14. Style the default footer elements */
 footer {
-    background: linear-gradient(to right, #000000, #0000ff 25%, #0066ff 70%, #000000);
-    border: 5px solid #FFFFFF;
+  background: linear-gradient(to right, #000000, #0000ff 25%, #0066ff 70%, #000000);
+  border: 5px solid #FFFFFF;
 }
 
-/* style paragraph within footer */
+/* 15. Style paragraphs within the footer */
 footer p {
-    font-size: 20px;
-    text-align: right;
-    padding: 15px 15px 15px 0;
+  font-size: 20px;
+  text-align: right;
+  padding: 15px 15px 15px 0;
 }
-
